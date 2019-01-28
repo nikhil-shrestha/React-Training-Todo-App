@@ -32,7 +32,7 @@ class AddTodo extends Component {
             onChange={e => this.changeValueHandler(e.target.value)}
           />
         </div>
-        
+
         <button className="btn btn-primary mb-2" type="submit">
           Add TODO
         </button>
